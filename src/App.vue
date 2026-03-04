@@ -19,14 +19,6 @@ const projects = ref([
     image: "src/assets/img/ecoMarket.png",
   },
   {
-    id: 2,
-    title: "LibroApp",
-    description:
-      "Gestión de Catálogo Educativo con CRUD completo e integración de Firebase.",
-    tags: ["Vue.js", "Firebase", "CRUD"],
-    image: "src/assets/img/libroApp.png",
-  },
-  {
     id: 3,
     title: "Alkemi WAllet 1",
     description: "Es el primer proyecto que desarrolle en clases.",
