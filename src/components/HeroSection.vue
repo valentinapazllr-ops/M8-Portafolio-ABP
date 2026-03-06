@@ -14,26 +14,54 @@
           utilizando Vue.js y los estándares más modernos del ecosistema web.
         </p>
         <div class="tech-stack">
-          <span class="tech-tag tag-vue"
-            ><i class="fab fa-vuejs"></i> Vue 3</span
+          <a
+            href="https://vuejs.org/"
+            target="_blank"
+            rel="noopener"
+            class="tech-tag tag-vue"
+            ><i class="fab fa-vuejs"></i> Vue 3</a
           >
-          <span class="tech-tag tag-js"
-            ><i class="fab fa-js"></i> JavaScript</span
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+            target="_blank"
+            rel="noopener"
+            class="tech-tag tag-js"
+            ><i class="fab fa-js"></i> JavaScript</a
           >
-          <span class="tech-tag tag-html"
-            ><i class="fab fa-html5"></i> HTML5</span
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/HTML"
+            target="_blank"
+            rel="noopener"
+            class="tech-tag tag-html"
+            ><i class="fab fa-html5"></i> HTML5</a
           >
-          <span class="tech-tag tag-css"
-            ><i class="fab fa-css3-alt"></i> CSS3</span
+          <a
+            href="https://developer.mozilla.org/es/docs/Web/CSS"
+            target="_blank"
+            rel="noopener"
+            class="tech-tag tag-css"
+            ><i class="fab fa-css3-alt"></i> CSS3</a
           >
-          <span class="tech-tag tag-sass"
-            ><i class="fab fa-sass"></i> SASS</span
+          <a
+            href="https://sass-lang.com/"
+            target="_blank"
+            rel="noopener"
+            class="tech-tag tag-sass"
+            ><i class="fab fa-sass"></i> SASS</a
           >
-          <span class="tech-tag tag-firebase"
-            ><i class="fas fa-fire"></i> Firebase</span
+          <a
+            href="https://firebase.google.com/"
+            target="_blank"
+            rel="noopener"
+            class="tech-tag tag-firebase"
+            ><i class="fas fa-fire"></i> Firebase</a
           >
-          <span class="tech-tag tag-vscode"
-            ><i class="fas fa-code"></i> VS Code</span
+          <a
+            href="https://code.visualstudio.com/"
+            target="_blank"
+            rel="noopener"
+            class="tech-tag tag-vscode"
+            ><i class="fas fa-code"></i> VS Code</a
           >
         </div>
       </div>
@@ -65,7 +93,8 @@
   font-weight: 500;
   color: var(--text-muted);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: default;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .tech-tag i {
