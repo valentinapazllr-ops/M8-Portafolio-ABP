@@ -3,7 +3,7 @@
     <div class="premium-container">
       <div class="section-header">
         <h2 class="title-xl">
-          Featured <span class="gradient-text">Work</span>
+          Proyectos <span class="gradient-text">Destacados</span>
         </h2>
         <p class="section-subtitle">
           Selección de proyectos destacados en desarrollo de software.

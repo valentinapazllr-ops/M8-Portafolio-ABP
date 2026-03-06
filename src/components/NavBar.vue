@@ -5,24 +5,19 @@
         <span class="logo gradient-text">Valentina.</span>
       </div>
       <div class="nav-links">
-        <a href="#proyectos">Work</a>
-        <a href="#estudio">Case Study</a>
-        <a href="#foda">Analysis</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#estudio">Caso de Estudio</a>
+        <a href="#foda">Análisis</a>
         <a href="#cv">CV</a>
         <div class="nav-divider"></div>
         <div class="social-box">
-          <a
-            :href="contact.linkedin"
-            target="_blank"
-            rel="noopener"
+          <a :href="contact.linkedin" target="_blank" rel="noopener"
             ><i class="fab fa-linkedin-in"></i
           ></a>
           <a :href="contact.github" target="_blank" rel="noopener"
             ><i class="fab fa-github"></i
           ></a>
-          <a :href="`mailto:${contact.email}`" class="btn-email"
-            >Contact</a
-          >
+          <a :href="`mailto:${contact.email}`" class="btn-email">Contacto</a>
         </div>
       </div>
     </div>

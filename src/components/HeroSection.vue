@@ -16,6 +16,9 @@
         <div class="tech-stack">
           <span class="tech-tag"><i class="fab fa-vuejs"></i> Vue 3</span>
           <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
+          <span class="tech-tag"><i class="fab fa-html5"></i> HTML5</span>
+          <span class="tech-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
+          <span class="tech-tag"><i class="fab fa-sass"></i> SASS</span>
           <span class="tech-tag"><i class="fas fa-fire"></i> Firebase</span>
           <span class="tech-tag"><i class="fas fa-code"></i> VS Code</span>
         </div>

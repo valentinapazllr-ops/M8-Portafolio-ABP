@@ -6,7 +6,6 @@ import WorkSection from "./components/WorkSection.vue";
 import CaseStudy from "./components/CaseStudy.vue";
 import FodaSection from "./components/FodaSection.vue";
 import CVSection from "./components/CVSection.vue";
-import DocsSection from "./components/DocsSection.vue";
 import FooterSimple from "./components/FooterSimple.vue";
 
 const projects = ref([
@@ -73,57 +72,29 @@ const caseStudy = ref({
 
 const foda = ref({
   fortalezas: [
-    "Dominio de Vue.js 3",
-    "Diseño UI/UX Sophisticated",
-    "Metodologías Ágiles",
-    "Resolución de Problemas",
-    "Colaboración Técnica",
+    "Dominio de Vue.js 3 y ecosistema moderno",
+    "Adaptabilidad y rápido aprendizaje",
+    "Creatividad en diseño UI/UX (CSS3, SASS)",
+    "Resolución proactiva de problemas",
+    "Colaboración y trabajo en equipo",
   ],
   debilidades: [
-    "Inglés C1 (Proceso)",
-    "Back-End Nativo",
-    "Cloud Infraestructure",
-    "Unit Testing Avanzado",
-    "CI/CD Pipelines",
+    "Experiencia laboral formal (perfil Junior/Trainee)",
+    "Inglés avanzado en proceso de mejora continua",
+    "Conocimientos profundos de arquitecturas Back-End",
   ],
   oportunidades: [
-    "Mercado Dev Remoto",
-    "Ecosistema Vue LATAM",
-    "Transformación Digital",
-    "Soluciones ERP Modernas",
-    "Networking Estratégico",
+    "Alta demanda en perfiles Front-End dinámicos",
+    "Desarrollo de proyectos Open Source o Freelance",
+    "Networking activo en la industria Tech",
+    "Crecimiento del ecosistema Vue y herramientas web",
   ],
   amenazas: [
-    "Saturación de Mercado",
-    "Evolución de Motores IA",
-    "Contexto Económico",
-    "Nuevos Frameworks",
-    "Competencia Global",
+    "Alta competencia en puestos de nivel Junior",
+    "Evolución constante y rápida de tecnologías Web",
+    "Ofertas laborales que exigen rol Full-Stack desde el inicio",
   ],
 });
-
-const docs = ref([
-  {
-    name: "linkedin_optimization.md",
-    url: "/docs/linkedin_optimization.md",
-    icon: "fab fa-linkedin",
-  },
-  {
-    name: "elevator_pitch.md",
-    url: "/docs/elevator_pitch.md",
-    icon: "fas fa-microphone-alt",
-  },
-  {
-    name: "linkedin_post.md",
-    url: "/docs/linkedin_post.md",
-    icon: "fas fa-share-alt",
-  },
-  {
-    name: "final_delivery.md",
-    url: "/docs/final_delivery.md",
-    icon: "fas fa-file-export",
-  },
-]);
 
 const cv = ref({
   name: "VALENTINA PAZ LLANTÉN ROBLES",
@@ -223,8 +194,6 @@ const cv = ref({
     <FodaSection :foda="foda" />
 
     <CVSection :cv="cv" />
-
-    <DocsSection :docs="docs" />
 
     <FooterSimple />
   </div>

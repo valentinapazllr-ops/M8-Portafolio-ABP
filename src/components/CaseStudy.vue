@@ -4,7 +4,7 @@
       <div class="glass-card case-outer animate-reveal">
         <div class="case-columns">
           <div class="case-main">
-            <span class="case-label">Case Study #01</span>
+            <span class="case-label">Caso de Estudio #01</span>
             <h2 class="case-title">{{ caseStudy.title }}</h2>
             <div class="case-intro">
               <div class="intro-block">
