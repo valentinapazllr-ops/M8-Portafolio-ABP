@@ -82,12 +82,16 @@
 
             <div class="cv-group">
               <h4 class="cv-group-title">Formación Académica</h4>
-              <div class="cv-edu-item">
-                <h5 class="cv-item-title">{{ cv.education.degree }}</h5>
+              <div
+                v-for="edu in cv.education"
+                :key="edu.degree"
+                class="cv-edu-item"
+              >
+                <h5 class="cv-item-title">{{ edu.degree }}</h5>
                 <p class="cv-item-subtitle">
-                  {{ cv.education.institution }} | {{ cv.education.year }}
+                  {{ edu.institution }} | {{ edu.year }}
                 </p>
-                <p class="cv-text-small">{{ cv.education.description }}</p>
+                <p class="cv-text-small">{{ edu.description }}</p>
               </div>
             </div>
           </div>

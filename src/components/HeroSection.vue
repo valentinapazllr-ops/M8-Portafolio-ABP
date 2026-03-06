@@ -14,13 +14,27 @@
           utilizando Vue.js y los estándares más modernos del ecosistema web.
         </p>
         <div class="tech-stack">
-          <span class="tech-tag"><i class="fab fa-vuejs"></i> Vue 3</span>
-          <span class="tech-tag"><i class="fab fa-js"></i> JavaScript</span>
-          <span class="tech-tag"><i class="fab fa-html5"></i> HTML5</span>
-          <span class="tech-tag"><i class="fab fa-css3-alt"></i> CSS3</span>
-          <span class="tech-tag"><i class="fab fa-sass"></i> SASS</span>
-          <span class="tech-tag"><i class="fas fa-fire"></i> Firebase</span>
-          <span class="tech-tag"><i class="fas fa-code"></i> VS Code</span>
+          <span class="tech-tag tag-vue"
+            ><i class="fab fa-vuejs"></i> Vue 3</span
+          >
+          <span class="tech-tag tag-js"
+            ><i class="fab fa-js"></i> JavaScript</span
+          >
+          <span class="tech-tag tag-html"
+            ><i class="fab fa-html5"></i> HTML5</span
+          >
+          <span class="tech-tag tag-css"
+            ><i class="fab fa-css3-alt"></i> CSS3</span
+          >
+          <span class="tech-tag tag-sass"
+            ><i class="fab fa-sass"></i> SASS</span
+          >
+          <span class="tech-tag tag-firebase"
+            ><i class="fas fa-fire"></i> Firebase</span
+          >
+          <span class="tech-tag tag-vscode"
+            ><i class="fas fa-code"></i> VS Code</span
+          >
         </div>
       </div>
     </div>
@@ -32,5 +46,73 @@
 </script>
 
 <style scoped>
-/* any component-specific styling could go here */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 2rem;
+}
+
+.tech-tag {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: default;
+}
+
+.tech-tag i {
+  font-size: 1.1rem;
+}
+
+.tech-tag:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Color accents per tag */
+.tag-vue:hover {
+  color: #42b883;
+  border-color: #42b883;
+  box-shadow: 0 5px 15px rgba(66, 184, 131, 0.2);
+}
+.tag-js:hover {
+  color: #f7df1e;
+  border-color: #f7df1e;
+  box-shadow: 0 5px 15px rgba(247, 223, 30, 0.2);
+}
+.tag-html:hover {
+  color: #e34f26;
+  border-color: #e34f26;
+  box-shadow: 0 5px 15px rgba(227, 79, 38, 0.2);
+}
+.tag-css:hover {
+  color: #1572b6;
+  border-color: #1572b6;
+  box-shadow: 0 5px 15px rgba(21, 114, 182, 0.2);
+}
+.tag-sass:hover {
+  color: #cc6699;
+  border-color: #cc6699;
+  box-shadow: 0 5px 15px rgba(204, 102, 153, 0.2);
+}
+.tag-firebase:hover {
+  color: #ffca28;
+  border-color: #ffca28;
+  box-shadow: 0 5px 15px rgba(255, 202, 40, 0.2);
+}
+.tag-vscode:hover {
+  color: #007acc;
+  border-color: #007acc;
+  box-shadow: 0 5px 15px rgba(0, 122, 204, 0.2);
+}
 </style>
