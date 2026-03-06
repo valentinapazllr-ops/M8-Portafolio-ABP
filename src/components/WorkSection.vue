@@ -32,6 +32,26 @@
                   {{ tag }}</span
                 >
               </div>
+              <div class="project-actions">
+                <a
+                  v-if="p.liveUrl"
+                  :href="p.liveUrl"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-action btn-live"
+                >
+                  <i class="fas fa-external-link-alt"></i> Demo
+                </a>
+                <a
+                  v-if="p.repoUrl"
+                  :href="p.repoUrl"
+                  target="_blank"
+                  rel="noopener"
+                  class="btn-action btn-repo"
+                >
+                  <i class="fab fa-github"></i> Código
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -50,5 +70,43 @@ const props = defineProps({
 </script>
 
 <style scoped>
-/* add component specific styles if desired */
+.project-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 1.5rem;
+}
+
+.btn-action {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-live {
+  background: var(--gradient-primary);
+  color: #fff;
+}
+
+.btn-repo {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--text-muted);
+}
+
+.btn-action:hover {
+  transform: translateY(-3px);
+  filter: brightness(1.1);
+}
+
+.btn-repo:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.2);
+}
 </style>

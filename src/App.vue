@@ -16,6 +16,10 @@ const projects = ref([
       "Showcase de Productos Digitales con Vue.js. Optimización de renderizado y localización.",
     tags: ["Vue.js", "Props", "Lifecycle Hooks"],
     image: "/img/EcoMarket.png",
+    liveUrl:
+      "https://valentinapazllr-ops.github.io/analisis-de-caso-Ecomarket/",
+    repoUrl:
+      "https://github.com/valentinapazllr-ops/analisis-de-caso-Ecomarket",
   },
   {
     id: 3,
@@ -23,6 +27,8 @@ const projects = ref([
     description: "Es el primer proyecto que desarrolle en clases.",
     tags: ["HTML", "CSS", "JS", "Git", "GitHub", "VSCode"],
     image: "/img/AlkemiWallet1.png",
+    liveUrl: "https://valentinapazllr-ops.github.io/alke-wallet1-deployment/",
+    repoUrl: "https://github.com/valentinapazllr-ops/alke-wallet1",
   },
   {
     id: 4,
@@ -31,6 +37,8 @@ const projects = ref([
       "Aplicación de presupuesto personal con arquitectura moderna para el mercado global.",
     tags: ["HTML", "CSS", "Js", "SCSS", "Git", "GitHub", "VSCode"],
     image: "/img/SmartBudget.png",
+    liveUrl: "https://valentinapazllr-ops.github.io/Proyecto-ABP-M3/",
+    repoUrl: "https://github.com/valentinapazllr-ops/Proyecto-ABP-M3",
   },
 ]);
 
