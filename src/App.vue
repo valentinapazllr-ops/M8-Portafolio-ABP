@@ -71,25 +71,28 @@ const caseStudy = ref({
 });
 
 const foda = ref({
-  fortalezas: [
-    "Dominio de Vue.js 3 y ecosistema moderno",
-    "Adaptabilidad y rápido aprendizaje",
-    "Creatividad en diseño UI/UX (CSS3, SASS)",
-    "Resolución proactiva de problemas",
-    "Colaboración y trabajo en equipo",
+  Fortalezas: [
+    "Dominio de HTML, CSS y SCSS — Sólida base en maquetación semántica, diseño responsivo y preprocesadores con metodologías como BEM y SCSS modular.",
+    "Desarrollo con Vue.js y manejo de estado — Conocimiento aplicado de Vue 3, Vuex y componentes reutilizables, evidenciado en proyectos reales como EcoMarket y LibroApp.",
+    "JavaScript moderno (ES6+) — Manejo de conceptos como promesas, async/await, manipulación del DOM, OOP y manejo de eventos.",
+    "Gestión de proyectos con Git y GitHub — Uso de control de versiones, flujo de trabajo con ramas, commits y despliegue en GitHub Pages.",
+    "Capacidad de aprendizaje autónomo y orientado a proyectos — Formación intensiva en bootcamp con entrega de proyectos ABP aplicados a situaciones reales, con habilidad para buscar soluciones de forma independiente",
   ],
-  debilidades: [
-    "Experiencia laboral formal (perfil Junior/Trainee)",
-    "Inglés avanzado en proceso de mejora continua",
-    "Conocimientos profundos de arquitecturas Back-End",
+  Debilidades: [
+    "Inglés técnico limitado — Leer documentación es posible, pero la comunicación fluida en inglés (escrita y oral) es aún un área a fortalecer, siendo un filtro clave para posiciones remotas internacionales.",
+    "Sin experiencia en backend ni Python — No dominas lenguajes de servidor como Python, Node.js o bases de datos relacionales, lo que limita el alcance como desarrolladora full stack real",
+    "Experiencia laboral formal aún en construcción — Tus proyectos son académicos; aún no cuentas con experiencia en entornos productivos reales con equipos y deadlines empresariales. ",
+    "Testing y calidad de código — Herramientas como Jest, Testing Library o buenas prácticas de QA (unit testing, E2E) son aún poco exploradas en tu formación.",
+    "Dominio limitado de herramientas DevOps y despliegue — Conceptos como CI/CD, Docker, o deployment en plataformas como Vercel, Netlify o AWS están fuera de tu stack actual.",
   ],
-  oportunidades: [
-    "Alta demanda en perfiles Front-End dinámicos",
-    "Desarrollo de proyectos Open Source o Freelance",
-    "Networking activo en la industria Tech",
-    "Crecimiento del ecosistema Vue y herramientas web",
+  Oportunidades: [
+    "Alta competencia entre perfiles junior — El mercado tiene un exceso de desarrolladores junior y escasez de seniors; entrar al primer empleo es el mayor obstáculo. ",
+    "La IA está automatizando tareas básicas de desarrollo — Herramientas como GitHub Copilot o Cursor están reemplazando código repetitivo, elevando el estándar mínimo esperado de un desarrollador. ",
+    "Competencia global en trabajo remoto — Al postular a empleos remotos, compites no solo con profesionales de Santiago, sino con desarrolladores de toda Latinoamérica y el mundo.",
+    "Requisito creciente de inglés fluido — Muchas vacantes bien remuneradas (especialmente en nearshoring) requieren inglés conversacional como condición no negociable. ",
+    "Mercado más exigente en especialización — Las empresas ya no buscan generalistas; priorizan perfiles con especialización clara (Vue/React avanzado, Next.js, TypeScript, rendimiento web)",
   ],
-  amenazas: [
+  Amenazas: [
     "Alta competencia en puestos de nivel Junior",
     "Evolución constante y rápida de tecnologías Web",
     "Ofertas laborales que exigen rol Full-Stack desde el inicio",
@@ -160,6 +163,25 @@ const cv = ref({
     year: "2026",
     description:
       "Formación intensiva con foco en arquitectura de software, metodologías ágiles y desarrollo de producto.",
+  },
+  education: {
+    degree: "Tecnico en Turismo",
+    institution: "Instituto Profesional Aiep",
+    year: "2013 - 2017",
+    description:
+      "Estudio Superior tecnico sobre gestión de destinos, hotelería, gastronomía, relaciones públicas y administración de empresas turísticas.",
+  },
+  education: {
+    degree: "Cientifico Humanista - Media",
+    institution: "Colegio San Luis Beltran",
+    year: "2008 - 2011",
+    description: "Termine mi educación media en el area cientifico humanista",
+  },
+  education: {
+    degree: "Enseñanza basica",
+    institution: "Colegio Madre Ana Eugenia",
+    year: "1999 - 2007",
+    description: "Estudie en el colegio Pre- Kinder a 8vo basico",
   },
   competencies: [
     {
