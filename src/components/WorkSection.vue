@@ -21,11 +21,7 @@
                 :src="p.image"
                 :alt="p.title"
                 class="project-img"
-                @error="
-                  (e) =>
-                    (e.target.src =
-                      'https://via.placeholder.com/600x400?text=Work')
-                "
+                @error="(e) => (e.target.src = 'https://picsum.photos/600/400')"
               />
             </div>
             <div class="project-info">
@@ -33,9 +29,8 @@
               <p class="p-desc">{{ p.description }}</p>
               <div class="p-tags">
                 <span v-for="tag in p.tags" :key="tag" class="tag-pill">
-                  {{
-                    tag
-                  }}</span>
+                  {{ tag }}</span
+                >
               </div>
             </div>
           </div>

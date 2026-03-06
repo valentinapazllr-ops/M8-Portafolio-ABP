@@ -16,14 +16,14 @@ const projects = ref([
     description:
       "Showcase de Productos Digitales con Vue.js. Optimización de renderizado y localización.",
     tags: ["Vue.js", "Props", "Lifecycle Hooks"],
-    image: "src/assets/img/ecoMarket.png",
+    image: "/img/EcoMarket.png",
   },
   {
     id: 3,
     title: "Alkemi WAllet 1",
     description: "Es el primer proyecto que desarrolle en clases.",
     tags: ["HTML", "CSS", "JS", "Git", "GitHub", "VSCode"],
-    image: "src/assets/img/AlkemiWallet1.png",
+    image: "/img/AlkemiWallet1.png",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const projects = ref([
     description:
       "Aplicación de presupuesto personal con arquitectura moderna para el mercado global.",
     tags: ["HTML", "CSS", "Js", "SCSS", "Git", "GitHub", "VSCode"],
-    image: "src/assets/img/SmartBudget.png",
+    image: "/img/SmartBudget.png",
   },
 ]);
 
@@ -229,4 +229,3 @@ const cv = ref({
     <FooterSimple />
   </div>
 </template>
-
