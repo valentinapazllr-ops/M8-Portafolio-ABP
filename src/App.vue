@@ -32,13 +32,13 @@ const projects = ref([
   },
   {
     id: 4,
-    title: "SmartBudget",
+    title: "LibroApp – Gestión de Inventario Educativo",
     description:
-      "Aplicación de presupuesto personal con arquitectura moderna para el mercado global.",
-    tags: ["HTML", "CSS", "Js", "SCSS", "Git", "GitHub", "VSCode"],
-    image: "/img/SmartBudget.png",
-    liveUrl: "https://valentinapazllr-ops.github.io/Proyecto-ABP-M3/",
-    repoUrl: "https://github.com/valentinapazllr-ops/Proyecto-ABP-M3",
+      "CRUD completo con integración de Firebase Firestore. Filtrado avanzado y experiencia de usuario fluida con arquitectura de datos escalable.",
+    tags: ["Vue.js" ,"Firebase", "CRUD" ,"Firestore"],
+    image: "/img/LibroApp.png",
+    liveUrl: "https://m6-abp.vercel.app/login",
+    repoUrl: "https://github.com/valentinapazllr-ops/M6-ABP",
   },
 ]);
 
