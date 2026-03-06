@@ -86,16 +86,19 @@ const foda = ref({
     "Dominio limitado de herramientas DevOps y despliegue — Conceptos como CI/CD, Docker, o deployment en plataformas como Vercel, Netlify o AWS están fuera de tu stack actual.",
   ],
   oportunidades: [
+    "Déficit de talento tech en Chile — Existe un déficit estimado de 6.000 trabajadores anuales en el sector TI; la demanda de perfiles digitales creció un 50% en 2024, lo que favorece a quienes terminan su formación ahora. ",
+    "Alta demanda de Frontend con frameworks modernos — Desarrolladores frontend con Vue.js o React son muy buscados en banca, retail y telcos; un Junior Frontend parte desde CLP 1.000.000 – 1.250.000 con alta proyección de crecimiento. ",
+    "Nearshoring y trabajo remoto para LATAM — Latinoamérica es hub de contratación para empresas de EE.UU., Canadá y Europa; tu zona horaria y formación te dan acceso a proyectos internacionales desde Chile. ",
+    "43% de empleadores planea aumentar equipos TI en 2026 — El mercado local está en expansión activa; empresas de distintos rubros están digitalizándose y necesitan desarrolladores frontend para sus productos. ",
+    "Creciente valorización del perfil Full Stack Trainee — El perfil Full Stack es el más versátil y demandado; empresas que buscan eficiencia prefieren developers que puedan moverse entre frontend y tareas de integración de APIs. ",
+  ],
+
+  amenazas: [
     "Alta competencia entre perfiles junior — El mercado tiene un exceso de desarrolladores junior y escasez de seniors; entrar al primer empleo es el mayor obstáculo. ",
     "La IA está automatizando tareas básicas de desarrollo — Herramientas como GitHub Copilot o Cursor están reemplazando código repetitivo, elevando el estándar mínimo esperado de un desarrollador. ",
     "Competencia global en trabajo remoto — Al postular a empleos remotos, compites no solo con profesionales de Santiago, sino con desarrolladores de toda Latinoamérica y el mundo.",
     "Requisito creciente de inglés fluido — Muchas vacantes bien remuneradas (especialmente en nearshoring) requieren inglés conversacional como condición no negociable. ",
     "Mercado más exigente en especialización — Las empresas ya no buscan generalistas; priorizan perfiles con especialización clara (Vue/React avanzado, Next.js, TypeScript, rendimiento web)",
-  ],
-  amenazas: [
-    "Alta competencia en puestos de nivel Junior",
-    "Evolución constante y rápida de tecnologías Web",
-    "Ofertas laborales que exigen rol Full-Stack desde el inicio",
   ],
 });
 
