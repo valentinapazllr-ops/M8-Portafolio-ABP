@@ -2,66 +2,49 @@
   <header class="hero-section animate-reveal">
     <div class="premium-container hero-grid">
       <div class="hero-content">
-        <div class="badge-new">2026 Portfolio</div>
+        <div class="badge-new">Portfolio 2026</div>
         <h1 class="hero-main-title">
-          Valentina Paz <br /><span class="gradient-text">Llantén Robles</span>
+          ¡Hola! Soy <br /><span class="gradient-text">Valentina Paz 👋</span>
         </h1>
         <p class="hero-lead">
-          Junior Tech Talent & Front-End Developer Trainee.
+          Junior Full Stack Developer · Especialista en Vue.js & Soluciones
+          Digitales
         </p>
         <p class="hero-story">
-          Convierto ideas complejas en interfaces dinámicas de alto rendimiento
-          utilizando Vue.js y los estándares más modernos del ecosistema web.
+          Convierto ideas complejas en interfaces dinámicas de alto rendimiento.
         </p>
+
+        <div class="hero-contact-info">
+          <span class="contact-item"
+            ><i class="fas fa-map-marker-alt"></i> Santiago, Chile</span
+          >
+          <span class="contact-item"
+            ><i class="fas fa-briefcase"></i> Disponible para Trabajo
+            Remoto</span
+          >
+          <span class="contact-item"
+            ><i class="fas fa-envelope"></i> valentinapazll.r@gmail.com</span
+          >
+        </div>
+
         <div class="tech-stack">
-          <a
-            href="https://vuejs.org/"
-            target="_blank"
-            rel="noopener"
-            class="tech-tag tag-vue"
-            ><i class="fab fa-vuejs"></i> Vue 3</a
+          <span class="tech-tag tag-vue"
+            ><i class="fab fa-vuejs"></i> Vue.js</span
           >
-          <a
-            href="https://developer.mozilla.org/es/docs/Web/JavaScript"
-            target="_blank"
-            rel="noopener"
-            class="tech-tag tag-js"
-            ><i class="fab fa-js"></i> JavaScript</a
+          <span class="tech-tag tag-js"
+            ><i class="fab fa-js"></i> JavaScript</span
           >
-          <a
-            href="https://developer.mozilla.org/es/docs/Web/HTML"
-            target="_blank"
-            rel="noopener"
-            class="tech-tag tag-html"
-            ><i class="fab fa-html5"></i> HTML5</a
+          <span class="tech-tag tag-html"
+            ><i class="fab fa-html5"></i> HTML5</span
           >
-          <a
-            href="https://developer.mozilla.org/es/docs/Web/CSS"
-            target="_blank"
-            rel="noopener"
-            class="tech-tag tag-css"
-            ><i class="fab fa-css3-alt"></i> CSS3</a
+          <span class="tech-tag tag-css"
+            ><i class="fab fa-css3-alt"></i> CSS3</span
           >
-          <a
-            href="https://sass-lang.com/"
-            target="_blank"
-            rel="noopener"
-            class="tech-tag tag-sass"
-            ><i class="fab fa-sass"></i> SASS</a
+          <span class="tech-tag tag-firebase"
+            ><i class="fas fa-fire"></i> Firebase</span
           >
-          <a
-            href="https://firebase.google.com/"
-            target="_blank"
-            rel="noopener"
-            class="tech-tag tag-firebase"
-            ><i class="fas fa-fire"></i> Firebase</a
-          >
-          <a
-            href="https://code.visualstudio.com/"
-            target="_blank"
-            rel="noopener"
-            class="tech-tag tag-vscode"
-            ><i class="fas fa-code"></i> VS Code</a
+          <span class="tech-tag tag-git"
+            ><i class="fab fa-git-alt"></i> Git</span
           >
         </div>
       </div>
@@ -74,6 +57,25 @@
 </script>
 
 <style scoped>
+.hero-contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.contact-item i {
+  color: var(--accent-primary);
+}
+
 .tech-stack {
   display: flex;
   flex-wrap: wrap;

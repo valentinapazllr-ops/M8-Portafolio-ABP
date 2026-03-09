@@ -6,9 +6,8 @@
       </div>
       <div class="nav-links">
         <a href="#proyectos">Proyectos</a>
-        <a href="#estudio">Caso de Estudio</a>
-        <a href="#foda">Análisis</a>
-        <a href="#cv">CV</a>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#stats">Métricas</a>
         <div class="nav-divider"></div>
         <div class="social-box">
           <a :href="contact.linkedin" target="_blank" rel="noopener"

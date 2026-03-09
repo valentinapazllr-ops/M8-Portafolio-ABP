@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap");
 
 :root {
   --bg-primary: #0a0f16;
@@ -10,7 +10,7 @@
   --premium-gradient: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
   --glass-bg: rgba(255, 255, 255, 0.03);
   --glass-border: rgba(255, 255, 255, 0.08);
-  --font-main: 'Outfit', sans-serif;
+  --font-main: "Outfit", sans-serif;
 }
 
 * {
@@ -38,7 +38,9 @@ body {
 }
 
 @media (max-width: 768px) {
-  .premium-container { padding: 0 1.5rem; }
+  .premium-container {
+    padding: 0 1.5rem;
+  }
 }
 
 .glass-card {
@@ -83,8 +85,14 @@ body {
 
 /* Animations */
 @keyframes fadeInUp {
-  from { opacity: 0; transform: translateY(30px); }
-  to { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .animate-reveal {
@@ -378,199 +386,9 @@ body {
   border-bottom: 1px solid var(--glass-border);
 }
 
-/* FODA Section */
-.foda-quadrants {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
-.foda-q {
-  padding: 3rem;
-}
-.q-header {
-  display: flex;
-  align-items: center;
-  gap: 0.8rem;
-  font-size: 1.2rem;
-  font-weight: 800;
-  margin-bottom: 2rem;
-  text-transform: uppercase;
-  border-bottom: 1px solid var(--glass-border);
-  padding-bottom: 1rem;
-}
-
-.foda-q ul {
-  list-style: none;
-}
-.foda-q li {
-  color: var(--text-secondary);
-  margin-bottom: 1rem;
-  font-size: 1rem;
-  padding-left: 1.5rem;
-  position: relative;
-}
-.foda-q li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: var(--accent-primary);
-}
-
-.green-q .q-header {
-  color: #10b981;
-}
-.blue-q .q-header {
-  color: #3b82f6;
-}
-.red-q .q-header {
-  color: #ef4444;
-}
-.orange-q .q-header {
-  color: #f59e0b;
-}
-
-/* CV Section Styling */
-.cv-container {
-  padding: 4rem;
-  background: rgba(255, 255, 255, 0.02);
-}
-
-.cv-header-info {
-  text-align: center;
-  margin-bottom: 4rem;
-  border-bottom: 1px solid var(--glass-border);
-  padding-bottom: 3rem;
-}
-
-.cv-name {
-  font-size: 2.5rem;
-  font-weight: 800;
-  margin-bottom: 0.5rem;
-}
-
-.cv-tagline {
-  font-size: 1.1rem;
-  color: var(--accent-primary);
-  font-weight: 600;
-  margin-bottom: 1.5rem;
-}
-
-.cv-contact-row {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-}
-
-.cv-contact-item i {
-  color: var(--accent-primary);
-  margin-right: 0.5rem;
-}
-
-.cv-grid {
-  display: grid;
-  grid-template-columns: 1.8fr 1fr;
-  gap: 4rem;
-}
-
-.cv-group {
-  margin-bottom: 3rem;
-}
-
-.cv-group-title {
-  font-size: 1.2rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  color: var(--text-primary);
-  margin-bottom: 1.5rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.cv-group-title::after {
-  content: "";
-  flex-grow: 1;
-  height: 1px;
-  background: var(--glass-border);
-}
-
-.cv-text {
-  color: var(--text-secondary);
-  line-height: 1.8;
-  font-size: 1rem;
-}
-
-.cv-project-item {
-  margin-bottom: 2rem;
-}
-
-.cv-item-title {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-bottom: 0.3rem;
-  color: var(--text-primary);
-}
-
-.cv-item-subtitle {
-  font-size: 0.9rem;
-  color: var(--accent-primary);
-  font-weight: 600;
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.cv-list {
-  padding-left: 1.2rem;
-  color: var(--text-secondary);
-}
-
-.cv-list li {
-  margin-bottom: 0.8rem;
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.cv-skill-cat {
-  margin-bottom: 2rem;
-}
-
-.cv-skill-cat h5 {
-  font-size: 1rem;
-  color: var(--text-primary);
-  margin-bottom: 1rem;
-}
-
-.cv-skill-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-}
-
-.cv-skill-tag {
-  padding: 0.4rem 0.8rem;
-  background: rgba(16, 185, 129, 0.05);
-  border: 1px solid var(--glass-border);
-  border-radius: 6px;
-  font-size: 0.85rem;
-  color: var(--text-secondary);
-}
-
-.cv-comp-item {
-  margin-bottom: 1rem;
-  font-size: 0.95rem;
-  color: var(--text-secondary);
-}
-
-.cv-comp-item strong {
-  color: var(--text-primary);
-}
-
-.cv-text-small {
-  font-size: 0.9rem;
-  color: var(--text-secondary);
-  margin-top: 0.5rem;
+/* Section standard spacing */
+.section {
+  padding: 8rem 0;
 }
 
 /* Docs Grid Styling */
@@ -683,4 +501,3 @@ body {
     gap: 0.5rem;
   }
 }
-
