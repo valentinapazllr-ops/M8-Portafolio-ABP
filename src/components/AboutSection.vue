@@ -36,21 +36,41 @@
             <div class="tech-category">
               <h3>Frontend</h3>
               <div class="tech-items">
-                <span>Vue.js</span>
-                <span>JavaScript</span>
-                <span>HTML5</span>
-                <span>CSS3</span>
-                <span>Responsive Design</span>
+                <span class="tech-pill tag-vue"
+                  ><i class="fab fa-vuejs"></i> Vue.js</span
+                >
+                <span class="tech-pill tag-js"
+                  ><i class="fab fa-js"></i> JavaScript</span
+                >
+                <span class="tech-pill tag-html"
+                  ><i class="fab fa-html5"></i> HTML5</span
+                >
+                <span class="tech-pill tag-css"
+                  ><i class="fab fa-css3-alt"></i> CSS3</span
+                >
+                <span class="tech-pill tag-responsive"
+                  ><i class="fas fa-mobile-alt"></i> Responsive Design</span
+                >
               </div>
             </div>
             <div class="tech-category">
               <h3>Herramientas</h3>
               <div class="tech-items">
-                <span>Firebase</span>
-                <span>Git</span>
-                <span>GitHub</span>
-                <span>VSCode</span>
-                <span>Java</span>
+                <span class="tech-pill tag-firebase"
+                  ><i class="fas fa-fire"></i> Firebase</span
+                >
+                <span class="tech-pill tag-git"
+                  ><i class="fab fa-git-alt"></i> Git</span
+                >
+                <span class="tech-pill tag-github"
+                  ><i class="fab fa-github"></i> GitHub</span
+                >
+                <span class="tech-pill tag-vscode"
+                  ><i class="fas fa-code"></i> VSCode</span
+                >
+                <span class="tech-pill tag-java"
+                  ><i class="fab fa-java"></i> Java</span
+                >
               </div>
             </div>
           </div>
@@ -119,23 +139,84 @@
 .tech-items {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.8rem;
+  gap: 1rem;
 }
 
-.tech-items span {
-  padding: 0.5rem 1rem;
+.tech-pill {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid var(--glass-border);
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: 0.9rem;
+  font-weight: 500;
   color: var(--text-secondary);
-  transition: all 0.3s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: default;
 }
 
-.tech-items span:hover {
+.tech-pill i {
+  font-size: 1.1rem;
+}
+
+.tech-pill:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+/* Personalized Colors per Tag */
+.tag-vue:hover {
+  color: #42b883;
+  border-color: #42b883;
+  background: rgba(66, 184, 131, 0.1);
+}
+.tag-js:hover {
+  color: #f7df1e;
+  border-color: #f7df1e;
+  background: rgba(247, 223, 30, 0.1);
+}
+.tag-html:hover {
+  color: #e34f26;
+  border-color: #e34f26;
+  background: rgba(227, 79, 38, 0.1);
+}
+.tag-css:hover {
+  color: #1572b6;
+  border-color: #1572b6;
+  background: rgba(21, 114, 182, 0.1);
+}
+.tag-responsive:hover {
+  color: #10b981;
+  border-color: #10b981;
   background: rgba(16, 185, 129, 0.1);
-  border-color: var(--accent-primary);
-  color: var(--text-primary);
+}
+.tag-firebase:hover {
+  color: #ffca28;
+  border-color: #ffca28;
+  background: rgba(255, 202, 40, 0.1);
+}
+.tag-git:hover {
+  color: #f05032;
+  border-color: #f05032;
+  background: rgba(240, 80, 50, 0.1);
+}
+.tag-github:hover {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+}
+.tag-vscode:hover {
+  color: #007acc;
+  border-color: #007acc;
+  background: rgba(0, 122, 204, 0.1);
+}
+.tag-java:hover {
+  color: #007396;
+  border-color: #007396;
+  background: rgba(0, 115, 150, 0.1);
 }
 
 @media (max-width: 1024px) {
