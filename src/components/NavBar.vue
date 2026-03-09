@@ -7,7 +7,7 @@
       <div class="nav-links">
         <a href="#proyectos">Proyectos</a>
         <a href="#sobre-mi">Sobre mí</a>
-        <a href="#stats">Métricas</a>
+        <a href="#contacto">Contacto</a>
         <div class="nav-divider"></div>
         <div class="social-box">
           <a :href="contact.linkedin" target="_blank" rel="noopener"

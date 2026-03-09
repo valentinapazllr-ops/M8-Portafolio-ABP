@@ -1,35 +1,6 @@
 <template>
-  <section id="stats" class="section stats-section">
+  <section id="contacto" class="section contact-section">
     <div class="premium-container">
-      <div class="section-header">
-        <h2 class="title-xl">
-          📊 <span class="gradient-text">GitHub Stats</span>
-        </h2>
-        <p class="section-subtitle">
-          Métricas de actividad y lenguajes más utilizados.
-        </p>
-      </div>
-
-      <div class="stats-grid animate-reveal">
-        <div class="glass-card stat-card">
-          <h3>Valentina's GitHub Stats</h3>
-          <div class="stat-img-container">
-            <img :src="statsUrl" alt="GitHub Stats" @error="handleImgError" />
-          </div>
-        </div>
-
-        <div class="glass-card stat-card">
-          <h3>Top Languages</h3>
-          <div class="stat-img-container">
-            <img
-              :src="languagesUrl"
-              alt="Top Languages"
-              @error="handleImgError"
-            />
-          </div>
-        </div>
-      </div>
-
       <div class="connect-box glass-card animate-reveal">
         <h2>🤝 <span class="gradient-text">Conectemos</span></h2>
         <div class="social-links">
@@ -59,49 +30,16 @@
   </section>
 </template>
 
-<script setup>
-const username = "valentinapazllr-ops";
-const statsUrl = `https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0f16`;
-const languagesUrl = `https://github-readme-stats.vercel.app/api/top-langs/?username=${username}&layout=compact&theme=tokyonight&hide_border=true&bg_color=0a0f16`;
-
-const handleImgError = (e) => {
-  e.target.style.display = "none";
-};
-</script>
+<script setup></script>
 
 <style scoped>
-.stats-section {
+.contact-section {
   padding: 5rem 0;
-}
-
-.stats-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-  gap: 2rem;
-  margin-bottom: 4rem;
-}
-
-.stat-card {
-  padding: 2rem;
-  text-align: center;
-}
-
-.stat-card h3 {
-  margin-bottom: 1.5rem;
-  font-size: 1.2rem;
-  color: var(--text-secondary);
-}
-
-.stat-img-container img {
-  width: 100%;
-  max-width: 100%;
-  border-radius: 12px;
 }
 
 .connect-box {
   text-align: center;
   padding: 4rem;
-  margin-top: 4rem;
 }
 
 .social-links {
@@ -150,11 +88,5 @@ const handleImgError = (e) => {
   margin-top: 3rem;
   color: var(--text-secondary);
   font-size: 0.9rem;
-}
-
-@media (max-width: 768px) {
-  .stats-grid {
-    grid-template-columns: 1fr;
-  }
 }
 </style>
