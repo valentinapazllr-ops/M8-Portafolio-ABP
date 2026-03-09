@@ -38,8 +38,8 @@ const projects = ref([
       "Aplicación de Presupuesto Personal. Arquitectura moderna para gestión financiera personal, orientada al mercado global con diseño intuitivo.",
     tags: ["Vue.js", "JavaScript", "CSS3"],
     image: "/img/SmartBudget.png",
-    liveUrl: "#",
-    repoUrl: "#",
+    liveUrl: "https://valentinapazllr-ops.github.io/Proyecto-ABP-M3/",
+    repoUrl: "https://github.com/valentinapazllr-ops/Proyecto-ABP-M3",
   },
   {
     id: 4,
