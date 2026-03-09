@@ -36,40 +36,80 @@
             <div class="tech-category">
               <h3>Frontend</h3>
               <div class="tech-items">
-                <span class="tech-pill tag-vue"
-                  ><i class="fab fa-vuejs"></i> Vue.js</span
+                <a
+                  href="https://vuejs.org/"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-vue"
+                  ><i class="fab fa-vuejs"></i> Vue.js</a
                 >
-                <span class="tech-pill tag-js"
-                  ><i class="fab fa-js"></i> JavaScript</span
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/JavaScript"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-js"
+                  ><i class="fab fa-js"></i> JavaScript</a
                 >
-                <span class="tech-pill tag-html"
-                  ><i class="fab fa-html5"></i> HTML5</span
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/HTML"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-html"
+                  ><i class="fab fa-html5"></i> HTML5</a
                 >
-                <span class="tech-pill tag-css"
-                  ><i class="fab fa-css3-alt"></i> CSS3</span
+                <a
+                  href="https://developer.mozilla.org/es/docs/Web/CSS"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-css"
+                  ><i class="fab fa-css3-alt"></i> CSS3</a
                 >
-                <span class="tech-pill tag-responsive"
-                  ><i class="fas fa-mobile-alt"></i> Responsive Design</span
+                <a
+                  href="https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Responsive_Design"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-responsive"
+                  ><i class="fas fa-mobile-alt"></i> Responsive Design</a
                 >
               </div>
             </div>
             <div class="tech-category">
               <h3>Herramientas</h3>
               <div class="tech-items">
-                <span class="tech-pill tag-firebase"
-                  ><i class="fas fa-fire"></i> Firebase</span
+                <a
+                  href="https://firebase.google.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-firebase"
+                  ><i class="fas fa-fire"></i> Firebase</a
                 >
-                <span class="tech-pill tag-git"
-                  ><i class="fab fa-git-alt"></i> Git</span
+                <a
+                  href="https://git-scm.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-git"
+                  ><i class="fab fa-git-alt"></i> Git</a
                 >
-                <span class="tech-pill tag-github"
-                  ><i class="fab fa-github"></i> GitHub</span
+                <a
+                  href="https://github.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-github"
+                  ><i class="fab fa-github"></i> GitHub</a
                 >
-                <span class="tech-pill tag-vscode"
-                  ><i class="fas fa-code"></i> VSCode</span
+                <a
+                  href="https://code.visualstudio.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-vscode"
+                  ><i class="fas fa-code"></i> VSCode</a
                 >
-                <span class="tech-pill tag-java"
-                  ><i class="fab fa-java"></i> Java</span
+                <a
+                  href="https://www.java.com/"
+                  target="_blank"
+                  rel="noopener"
+                  class="tech-pill tag-java"
+                  ><i class="fab fa-java"></i> Java</a
                 >
               </div>
             </div>
@@ -154,7 +194,8 @@
   font-weight: 500;
   color: var(--text-secondary);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: default;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .tech-pill i {
